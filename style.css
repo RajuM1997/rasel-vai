@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  border: 1px solid tomato;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile_main {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.profile_main h5 {
+  padding: 30px 0;
+}
+.profile_main button {
+  background: tomato;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 45px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.success_main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid tomato;
+  padding: 20px;
+}
+.icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.icon h4 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+}
+.date_id {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.title,
+.number {
+  display: flex;
+  align-items: flex-start;
+  width: 150px !important;
+}
+.title,
+.number h6 {
+  font-size: 15px;
+}
+.transaction_id,
+.date {
+  display: flex;
+}
+.transaction_id,
+.number {
+  font-size: 14px;
+}
+.text p {
+  font-weight: 400;
+}
+.payout_details {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid tomato;
+  padding: 20px;
+}
+.row {
+  border: 1px solid tomato;
+}
+.payment_left img {
+  width: 100px;
+  height: 30px;
+  object-fit: cover;
+}
+.payment_btn button {
+  background: tomato;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 8px 30px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+.work {
+  box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+  border: 1px solid tomato;
+  height: 100%;
+  text-align: center;
+}
+.payment_img img {
+  width: 100px;
+  height: 40px;
+}
